@@ -1,0 +1,11 @@
+node_modules
+dist
+build
+bundle-stats
+.cache
+.idea
+.git
+.vscode
+.docz/cache
+.docz/dist
+src/features/email-editor/templates/email
