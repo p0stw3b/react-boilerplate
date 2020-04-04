@@ -28,6 +28,9 @@ module.exports = function () {
       },
       loaderOptions: (eslintOptions) => ({ ...eslintOptions, ignore: true }),
     },
+    babel: {
+      plugins: [["effector/babel-plugin", { addLoc: true }]],
+    },
     jest: {
       configure: {
         moduleNameMapper: {
