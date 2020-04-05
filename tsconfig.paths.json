@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
       "~/*": ["src/*"],
       "~api/*": ["api/*"],
@@ -9,6 +9,7 @@
       "~locales/*": ["locales/*"],
       "~pages/*": ["pages/*"],
       "~router/*": ["router/*"],
+      "~redux/*": ["redux/*"],
       "~ui/*": ["ui/*"]
     }
   }

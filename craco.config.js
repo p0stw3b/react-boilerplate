@@ -17,6 +17,7 @@ module.exports = function () {
         "~lib": resolve("src/lib"),
         "~locales": resolve("src/locales"),
         "~pages": resolve("src/pages"),
+        "~redux": resolve("src/redux"),
         "~router": resolve("src/router"),
         "~ui": resolve("src/ui"),
       },
